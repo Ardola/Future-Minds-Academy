@@ -1,0 +1,28 @@
+h1 {
+    background-color: rgb(49, 49, 148);
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 3px 7px 5px gray;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    background-color: purple;
+    color: beige;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 3px 7px 5px gray;
+    text-align: center;
+    width: 350px;
+    margin-left: 60px;
+}
+
+h2 {
+    background-color: lightskyblue;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 3px 7px 5px gray;
+    text-align: center;
+    padding: 20px;
+}
+
