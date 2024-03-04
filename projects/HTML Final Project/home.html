@@ -3,22 +3,25 @@
 <head>
     <title>Home</title>
     <link rel="icon" type="image/x-icon" href="./images/moon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Personal Portfolio</h1>
         <hr>
+        <h1 class="header1">Personal Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="myProject.html">My projects&#128640;</a></li>
-                <li><a href="contactMe.html">Contact me!&#128153;</a></li>
+                <li class="project"><a href="myProject.html">My projects&#128640;</a></li>
+                <li class="contactme"><a href="contactMe.html">Contact me!&#128153;</a></li>
             </ul>
         </nav>
+        <br>
         <hr>
     </header>
+    <br>
     <main>
-        <section>
+        <section class="description">
             <h2>Who is <u>Ardola Haziri</u>?</h2>
             <article>
                 <figure>
@@ -35,22 +38,22 @@
             </article>
         </section>
         <br>
-        <section>
-            <h2>Education</h2>
+        <section class="education">
+            <h2 class="font1">Education</h2>
             <article>
-                <ul>
-                    <li>Primary school</li>
-                    <ul>
+                <ul class="primary">
+                    <li class="school">Primary school</li>
+                    <ul class="li2">
                         <li><b>SHFMU Rexhep Elmazi </b>(2013-2022)</li>
                         <li><b>Shkolla e muzikes </b>(2014-2022)</li>
                     </ul>
-                    <li>High school : <b>Gjimnazi Natyror "Xhavit Ahmeti"</b></li>
+                    <li class="highschool">High school : <b>Gjimnazi Natyror "Xhavit Ahmeti"</b></li>
                 </ul>
             </article>
         </section>
 
-        <section>
-            <h2>My skills</h2>
+        <section class="myskills">
+            <h2 class="skills">My skills</h2>
             <article>
                 <table border="1" width="40%">
                     <tr>
@@ -77,18 +80,23 @@
             </article>
         </section>
 
-        <section>
-            <h2>My projects</h2>
-            <article>
-                <ol>
+        <section class="myprojects">
+            <h2 class="project1">My projects</h2>
+            <article class="art1">
+                <ol class="emoji">
                     <li id="favorite">
-                        Favorite celebrity<a href="myProject.html#a1">&rarr;Read more</a>
+                        Favorite celebrity<a href="myProject.html#a1">
+                            <img src="./images/bluearr.png" alt="1" style="width:20px;height:2opx;"></a>
                     </li>
                     <li id="business">
-                        My local business <a href="myProject.html#a2">&rarr;Read more</a>
+                        My local business <a href="myProject.html#a2">
+                            <img src="./images/bluearr.png" alt="1" style="width:20px;height:2opx;">
+                        </a>
                     </li>
                     <li id="semantic">
-                        Semantic <a href="myProject.html#a3">&rarr;Read more</a>
+                        Semantic <a href="myProject.html#a3">
+                            <img src="./images/bluearr.png" alt="1" style="width:20px;height:2opx;">
+                        </a>
                     </li>
                 </ol>
             </article>
