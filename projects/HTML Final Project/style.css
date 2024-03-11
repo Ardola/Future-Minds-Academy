@@ -99,7 +99,6 @@ h1 {
 
 .primary {
     border-radius: 15px;
-    background-color: white;
     padding: 15px;
     list-style-type: none;
     padding-right: 45rem;
@@ -113,15 +112,18 @@ h1 {
     list-style-type: none;
 }
 
-.li2 {
+#li2 {
     padding-right: 100px;
+    color: black;
+  text-align: center;
+  border-radius: 4rem;
+  padding: 1rem;
+  display: inline;
 }
 
 .highschool {
     border-radius: 15px;
-    background-color: blue;
     padding: 15px;
-    background-color: white;
     list-style-type: none;
     margin: 50px;
 }
@@ -197,6 +199,14 @@ th {
 .myprojects:hover {
     border: 2px solid black;
     background-color: rgb(211, 147, 28);
+}
+
+.emoji {
+    color: black;
+  text-align: center;
+  border-radius: 4rem;
+  padding: 1rem;
+  display: inline;
 }
 
 .project1 {
@@ -303,13 +313,6 @@ nav {
 }
 
 
-body {
-    background-image: url(./images/mix.jpg);
-    cursor: url(./images/star.png), auto;
-    background-repeat: no-repeat;
-    background-size: 5000px;
-}
-
 header {
     text-align: center;
 }
@@ -351,4 +354,9 @@ nav {
     margin-right: 30rem;
     padding: 1rem;
     font-size: 20px;
+}
+
+.send:hover {
+    border: 2px solid rgb(95, 46, 62);
+    background-color: rgb(156, 80, 105);
 }
