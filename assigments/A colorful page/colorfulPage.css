@@ -1,0 +1,32 @@
+body {
+    background-image: url(./images/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: 5000px;
+}
+
+header {
+    text-align: left;
+    background-color: rgb(70, 100, 199);
+    color: rgb(182, 39, 87);
+}
+
+.header {
+color: palevioletred;
+}
+
+nav {
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.712);
+}
+
+.art1 {
+    background-color: rgb(70, 100, 199);
+    color: rgb(182, 39, 87);
+    font-size: 20px;
+}
+
+.art2 {
+    background-color: rgb(70, 100, 199);
+    color: rgb(182, 39, 87);
+    font-size: 20px;
+}
