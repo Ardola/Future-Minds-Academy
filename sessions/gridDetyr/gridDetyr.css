@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+li {
+text-decoration: none;
+}
+
+main {
+     background-color: pink;
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     height: 100vh;
+}
+
+aside {
+    background-color: blueviolet;
+    height: 100vh;
+    padding: auto;
+    width: auto;
+}
+
+.art1 {
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+footer {
+    background-color: coral;
+}

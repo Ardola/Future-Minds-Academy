@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loop</title>
+</head>
+
+<body>
+
+    <ol id="books">
+
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>1 x i</th>
+            </tr>
+        </thead>
+        <tbody id="multitable">
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        let myLibrary = [
+            'Gu gu picigu',
+        'Beni ecen vetem',
+        'Lulja e kujtimeve',
+        'Lahuta e malesis',
+        'Homeri Iliada',
+        'Luli i vocerr'
+    ];
+
+const books = document.querySelector('#books');
+
+
+     for(let run=0; run<myLibrary.length; run++){
+        books.innerHTML += `<li>${myLibrary[run]}</li>`;
+     }
+
+     const multitable = document.querySelector('#multitable');
+
+     for(let i=1; i<=10; i++){
+        multitable.innerHTML += `
+         <tr>
+                <td></td>
+            </tr>
+            `;
+     }
+
+
+    </script>
+
+</body>
+
+</html>

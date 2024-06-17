@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+}
+
+h1 {
+    color: blue;
+    padding: 40px;
+}
+
+div {
+    width: 400px;
+    height: 30px;
+}

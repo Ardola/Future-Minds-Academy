@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+</head>
+<body>
+    <h1>Log in</h1>
+    <form action="#">
+        <label for="email">Email: </label>
+        <input type="text" placeholder="ardolahaziri@gmail.com" id="email" required><br>
+        <label for="password">Password: </label>
+        <input type="password" placeholder="*****" id="password" required><br>
+
+        <p id="msg"></p>
+<button onclick="checkLogin()">Log in</button>
+</form>
+
+<script>
+    function checkLogin(){
+        const email = document.querySelector('#email');
+        const password = document.querySelector('#password');
+        const msg = document.querySelector('#msg');
+        const p = document.querySelector('#msg');
+
+        if(email.value == 'ardola@gmail.com'&& password.value == '123456'){
+            msg.style.color = 'red';
+            msg.textContent = "Correct";
+        }
+        else {
+msg.textContent = "Incorrect"
+msg.style.color = 'green';
+    }
+}
+</script>
+</body>
+</html>

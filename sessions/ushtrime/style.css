@@ -1,0 +1,15 @@
+.pseudo-class {
+    background-color: grey;
+    font-size: 60px;
+}
+
+.pseudo-class:hover {
+    border: 2px solid rgb(104, 9, 64);
+    background-color: rgb(150, 64, 93);
+}
+
+.pseudo-class::first-letter {
+    font-size: 10rem;
+  font-weight: bold;
+  color: brown;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+</head>
+
+<body>
+
+    <h1 id="Hi">Ardola Haziri</h1>
+
+    <div id="batman">
+        <img src="./img/queen.png" alt="" width="10%" >
+    </div>
+
+    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit nesciunt, nobis dicta debitis quae,
+        minima cum aspernatur assumenda vero, non a! Consequuntur possimus iusto suscipit minus ea neque laudantium.</p>
+       
+        <button onclick="loadBatman()">Batman</button>
+        <button onclick="loadQueen()">Queen</button>
+         
+    <script>
+            function loadBatman() {
+const Hi = document.querySelector('#Hi');
+        Hi.textContent = 'Hello FMA';
+
+        const batman = document.querySelector('#batman');
+        batman.innerHTML = '<img src="./img/batman.png" alt="" width="10%">';
+
+        const bio = document.querySelector('.bio');
+        bio.textContent = 'I am ardola haziri';
+            }
+
+            function loadQueen() {
+const Hi = document.querySelector('#Hi');
+        Hi.textContent = 'Hi';
+
+        const batman = document.querySelector('#batman');
+        batman.innerHTML = '<img src="./img/queen.png" alt="" width="10%">';
+
+        const bio = document.querySelector('.bio');
+        bio.textContent = 'Batman';
+            }
+
+        
+    </script>
+</body>
+
+</html>

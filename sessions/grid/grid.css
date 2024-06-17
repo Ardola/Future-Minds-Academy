@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    
+}
+
+header {
+    background-color: blue;
+    padding: 80px;
+}
+
+main {
+    background-color: aqua;
+}
+
+aside {
+    background-color: cornflowerblue;
+    height: 12px;
+}
+
+footer {
+    background-color: black;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.art1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.art2 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+    
+}
+

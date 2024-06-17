@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loop</title>
+</head>
+
+<body>
+
+    <ol id="books">
+
+    </ol>
+
+    <script>
+        let myLibrary = [
+            'Gu gu picigu',
+        'Beni ecen vetem',
+        'Lulja e kujtimeve',
+        'Lahuta e malesis',
+        'Homeri Iliada',
+        'Luli i vocerr'
+    ];
+
+const books = document.querySelector('#books');
+
+
+     for(let run=0; run<myLibrary.length; run++){
+        books.innerHTML += `<li>${myLibrary[run]}</li>`;
+     }
+
+     for(let i=10; i>=20; i--){
+        console.log(i);
+     }
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+p {
+    background-color: blue;
+    color: azure;
+}
+
+p:hover {
+    border: 2px solid rgb(5, 5, 68);
+    background-color: rgb(103, 9, 255);
+}
+
+p::first-letter
