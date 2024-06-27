@@ -6,27 +6,34 @@
     <title>Vowels and Consonants</title>
 </head>
 <body>
-    <script>
-   document.addEventListener('keypress', (e) => {
-    let symbol = e.key;
+    <script type="text/javascript">
+ 
+ function checkCharacter(char){
+    const vowels = "ardola";
+    const Consonants = "bdcdchdgcdgcdgchgdhg";
+    const numbers = "0123456789";
 
-    // Check if the symbol is a vowel (both lowercase and uppercase)
-    if (/[aeiouAEIOU]/.test(symbol)) {
-        console.log("'" + symbol + "' is a vowel.");
+    if (char.length !== 1){
+        console.log("Please enter a single character.");
     }
-    // Check if the symbol is a consonant (alphabetical and not a vowel)
-    else if (/[a-zA-Z]/.test(symbol)) {
-        console.log("'" + symbol + "' is a consonant.");
+    else if(vowels.includes(char)){
+        console.log(`'${char}' is a vowel.`);
     }
-    // Check if the symbol is a number
-    else if (/[0-9]/.test(symbol)) {
-        console.log("'" + symbol + "' is a number.");
+    else if (Consonants.includes(char)){
+        console.log(`'${char}' is a conconant.`);
     }
-    // Otherwise, consider it as another symbol
+    else if (numbers.includes(char)){
+        console.log(`'${char}' is a number.`);
+    }
     else {
-        console.log("'" + symbol + "' is another symbol.");
+        cconsole.log(`'${char}' is a symbol.`);
     }
-});
+ }
+document.addEventListener('keypreess', (e) => {
+    let char = e.key;
+    checkCharacter(char);
+})
+
     </script>
 </body>
 </html>
