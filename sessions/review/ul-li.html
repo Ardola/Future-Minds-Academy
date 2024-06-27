@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: flex;
+            gap: 10px;
+        }
+        ul li{
+            list-style-type: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            width: fit-content;
+            background-color: bisque;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li id="gugu">Gu gu pici gu</li>
+        <li id="mali">Malesorja</li>
+        <li id="beni">Beni ecen vete</li>
+        <li id="tomi">Aventura e tom sojer</li>
+        <li id="hamlet">Hamlet</li>
+        <li id="trimi">Trimi i mir me shok shum</li>
+    </ul>
+
+    <h1 id="mytext">Fetch Title</h1>
+
+    <script>
+       const gugu = document.querySelector('#gugu');
+       const  mali = document.querySelector('#mali');
+       const  beni = document.querySelector('#beni');
+       const tomi = document.querySelector('#tomi');
+       const  hamlet = document.querySelector('#hamlet');
+       const  trimi = document.querySelector('#trimi');
+
+       gugu.addEventListener('click',function(){
+        mytext.textContent='gu gu pici gu';
+    })
+       
+       mali.addEventListener('click',function(){
+        mytext.textContent='malesorja';
+    })
+       
+       beni.addEventListener('click',function(){
+        mytext.textContent='Beni ecen vete';
+    })
+      
+       tomi.addEventListener('click',function(){
+        mytext.textContent='Aventura e tom sojer';
+    })
+       
+       hamlet.addEventListener('click',function(){
+        mytext.textContent='hamlet';
+    })
+       
+       trimi.addEventListener('click',function(){
+        mytext.textContent='Trimi i mir me shok shum';
+    }) 
+    </script>
+</body>
+</html>

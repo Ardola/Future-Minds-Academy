@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: flex;
+            gap: 10px;
+        }
+        ul li{
+            list-style-type: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            width: fit-content;
+            background-color: bisque;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul id="mybooks">
+        <li >Gu gu pici gu</li>
+        <li >Malesorja</li>
+        <li >Beni ecen vete</li>
+        <li >Aventura e tom sojer</li>
+        <li >Hamlet</li>
+        <li >Trimi i mir me shok shum</li>
+    </ul>
+
+    <h1 id="title">Fetch Title</h1>
+
+    <script>
+       const mybooks = document.querySelector('#mybooks');
+       const title = document.querySelector('#title');
+     
+      for(let i=0; i<mybooks.children.length; i++){
+        mybooks.children[i].addEventListener('click', function){
+            title.textContent = this.textContent;
+        }
+      }
+    </script>
+</body>
+</html>

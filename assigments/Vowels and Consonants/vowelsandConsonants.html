@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowels and Consonants</title>
+</head>
+<body>
+    <script>
+   document.addEventListener('keypress', (e) => {
+    let symbol = e.key;
+
+    // Check if the symbol is a vowel (both lowercase and uppercase)
+    if (/[aeiouAEIOU]/.test(symbol)) {
+        console.log("'" + symbol + "' is a vowel.");
+    }
+    // Check if the symbol is a consonant (alphabetical and not a vowel)
+    else if (/[a-zA-Z]/.test(symbol)) {
+        console.log("'" + symbol + "' is a consonant.");
+    }
+    // Check if the symbol is a number
+    else if (/[0-9]/.test(symbol)) {
+        console.log("'" + symbol + "' is a number.");
+    }
+    // Otherwise, consider it as another symbol
+    else {
+        console.log("'" + symbol + "' is another symbol.");
+    }
+});
+    </script>
+</body>
+</html>

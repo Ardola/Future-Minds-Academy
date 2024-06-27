@@ -31,10 +31,10 @@
 
         let tr = '';
 
-        for(let i=1; i<=10; i++){
+        for(let i=100; i>0; i-=10){
             tr +='<tr>';
-            for(let j=1; j<=10; j++){
-                tr += '<td>'+i*j+'</td>';
+            for(let j=0; j<10; j++){
+                tr += '<td>'+Number(i-j)+'</td>';
             }
             tr +='</tr>';
         }
